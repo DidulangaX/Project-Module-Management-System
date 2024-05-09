@@ -1,0 +1,11 @@
+header {
+  background-color: #124E66; /* Set the background color to grey */
+  display: flex;
+  justify-content: center; /* Center the logo horizontally */
+  align-items: center; /* Center the logo vertically */
+  padding: 20px 0; /* Add some padding for spacing */
+}
+
+header img {
+  max-width: 300px; /* Set the maximum width for the logo */
+}

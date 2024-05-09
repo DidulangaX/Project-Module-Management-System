@@ -1,0 +1,38 @@
+/* EnterMarks.css */
+
+.enter-marks-container {
+  background-image: url('../Components/Images/Teacher2.png');
+  background-position: 500px 80%;
+  
+  background-repeat: no-repeat;
+  background-size: 17%;
+  
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-container {
+  margin-top: 2rem;
+}
+
+.btn-container .btn {
+  margin-bottom: 200px;
+  background-color: #2e3944; /* Color similar to register.css buttons */
+  color: #ffffff; /* Text color */
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  width: 250px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  border: none; /* Remove border */
+  cursor: pointer;
+}
+
+.btn-container .btn:hover {
+  background-color: #124e66; /* Darker color on hover */
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}

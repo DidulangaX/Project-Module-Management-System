@@ -1,0 +1,72 @@
+/* HomePage.css */
+
+/* Hero banner styles */
+.hero-banner {
+  
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0; 
+  text-align: center;
+  color: #fff; /* Text color */
+}
+
+.hero-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Dashboard section styles */
+.dashboard {
+  padding: 50px 0;
+}
+
+.dashboard-box {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.dashboard-box h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dashboard-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard-box ul li {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.notices-box {
+  border-right: 2px solid #ddd; /* Separate notices and announcements boxes */
+}
+
+.announcements-box {
+  border-left: 2px solid #ddd; /* Separate notices and announcements boxes */
+}

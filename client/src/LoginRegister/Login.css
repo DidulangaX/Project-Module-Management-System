@@ -1,0 +1,99 @@
+/* Login.css */
+
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #748D92;
+  }
+  
+  .login-container {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #a9b5b8; /* Background color for the container */
+    background-image: url('../Components/Images/Login.png');
+    background-position: 500px 65%;
+    
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-blend-mode: color-burn;
+    
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .logo-image {
+    border-radius: 5px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.4));
+    width: 900px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .login-container h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2E3944;
+  }
+  
+  .form-group {
+    
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    margin-inline-end: 690px;
+    display: block;
+    margin-bottom: 5px;
+    color: #2E3944;
+  }
+  
+  .form-group input,
+  .form-group select { /* Applied to input and select */
+    margin-right: 450px;
+    width: 40%;
+    padding: 10px; /* Adjusted padding for uniform size */
+    border: 1px solid #D3D9D4;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #D3D9D4; /* Background color for input fields */
+    color: #333333;
+  }
+  
+  button[type="submit"] {
+    margin-top:10px ;
+    margin-right: 450px;
+    width: 40%;
+    background-color: #2E3944;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #124E66;
+  }
+  
+  .login-container p {
+    text-align: center;
+  }
+  
+  .login-container p a {
+    color: #124E66;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .login-container p a:hover {
+    text-decoration: underline;
+  }
+  

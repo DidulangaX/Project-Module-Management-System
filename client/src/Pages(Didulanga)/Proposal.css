@@ -1,0 +1,142 @@
+/* Proposal.css */
+
+.proposal-container {
+  background-color: #748D92;
+  background-image: url('../Components/Images/Teacher.png');
+  background-position: 1500px 0%;
+  
+  background-repeat: no-repeat;
+  background-size: 12%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  padding: 2rem;
+}
+
+.content-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.proposal-container h2 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+/* Group ID Section */
+.group-id-section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.group-id-section label {
+  font-weight: bold;
+  color: #2e3944;
+}
+
+.group-id-section input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 300px;
+  max-width: 100%;
+}
+
+.group-id-section input.invalid {
+  border-color: #2e3944;
+  background-color: #ffebeb;
+}
+
+.group-id-section input:invalid + .validation-message {
+  display: block;
+  color: #ff6b6b;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.validation-message {
+  display: none;
+}
+
+/* Student Sections */
+.student-sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.student-section {
+  background-color: #a9b5b8;
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.student-section h4 {
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.student-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.student-details div {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-details label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.student-details input {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.student-details input:invalid {
+  border-color: #ddd;
+  background-color: transparent;
+}
+
+.student-details input.invalid {
+  border-color: #2e3944;
+  background-color: #ffebeb;
+}
+
+.student-details input:invalid + .validation-message {
+  display: block;
+  color: #ff6b6b;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/* Submit Button */
+.submitt-btn {
+  
+  background-color: #2e3944; /* Color similar to register.css buttons */
+  color: #ffffff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.2rem;
+  width: 250px;
+  height: 50px;
+  margin-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submitt-btn:hover {
+  background-color: #124e66; /* Darker color on hover */
+}
